@@ -6,7 +6,7 @@ This repository implements an evolutionary algorithm for optimizing reservoir co
 - Evolutionary optimization of reservoir size, connectivity, and hyperparameters.
 - Support for feedback connections and cycle detection.
 - Parallel evaluation using `ray` and `joblib`.
-- Task-specific fitness evaluation via `stream_benchmark`.
+- Task-specific fitness evaluation via `stream_dataset`.
 
 ## Requirements
 - Python >= 3.8
@@ -26,4 +26,5 @@ This repository implements an evolutionary algorithm for optimizing reservoir co
 - `reservoirpy`: Reservoir computing backend.
 - `scikit-learn`, `numpy`: Machine learning and numerical operations.
 - `graphviz`: Visualization of the best individual.
+- `stream_dataset`: Generate the tasks
 
