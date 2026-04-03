@@ -27,6 +27,3 @@ This repository implements an evolutionary algorithm for optimizing reservoir co
 - `scikit-learn`, `numpy`: Machine learning and numerical operations.
 - `graphviz`: Visualization of the best individual.
 
-## Notes
-- Task names like `'covid_task'` may be considered sensitive; consider renaming if strict anonymization is required [3].
-- The framework is designed for extensibility; new tasks can be added to the `task_functions` dictionary in `utils.py` [3].
