@@ -33,5 +33,5 @@ if __name__ == "__main__":
 
     #get best indivudal graph
     g = adjacency_matrix_to_graph_2(best_individual)
-    g.render("best individual covid", view = True)
+    g.render("best individual "+str(task_name), view = True)
 
